@@ -1,9 +1,11 @@
 *{
     box-sizing: border-box;
-    font-family: Arial, sans-serif; 
 }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
 body{
-    background-color: rgb(146, 142, 142);
+    background-color: rgb(167, 165, 165);
+    font-family: 'Inter', sans-serif;
 }
 .container{
     width: 360px;
@@ -11,6 +13,8 @@ body{
     border-radius: 10px;
     padding: 56px 20px 91px 20px;
     background-color: #FFFFFF;
+    font-weight: 400;
+    line-height: 1;
 }
 input {
     width: 100%;
